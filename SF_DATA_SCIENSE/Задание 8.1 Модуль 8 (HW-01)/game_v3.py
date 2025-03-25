@@ -9,7 +9,10 @@ prediction = (50, 101, 1) # predict_number = 50, up_limiter = 101, low_limiter =
 number = 75
 while True:
     count +=1
-    def fork(predict_number, up_limiter, low_limiter) -> int: 
+    def fork(predict_number, up_limiter, low_limiter) -> int:
+        """Расчитываем програмно значение number
+        Args:
+            number (int)""" 
         mid_idx = (predict_number - 1)
         if predict_number > number:
             up_limiter = predict_number
