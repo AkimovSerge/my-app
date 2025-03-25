@@ -6,7 +6,7 @@ mu_list = []
 for i in range(1, 101):
    mu_list.append(i)
 prediction = (50, 101, 1) # predict_number = 50, up_limiter = 101, low_limiter = 1
-number = 100
+number = 75
 while True:
     count +=1
     def fork(predict_number, up_limiter, low_limiter) -> int: 
